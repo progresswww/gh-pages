@@ -1,0 +1,66 @@
+body
+{
+	font-family: Helvetica,Arial,sans-serif;
+	background: url(achterdefault.gif) #9cf no-repeat 0 30px;
+	color: #006;
+	margin: 0;
+	padding: 0;
+	max-width:100%;
+	font-size:0.9em;
+}
+
+#content 
+{
+	/*position: absolute;
+	clear: both;*/
+	padding-right: 1em;
+	padding-left: 3.5em;
+	padding-top: 9em;
+	padding-bottom: 0;
+	max-width:98%
+}
+
+h2
+{
+	color: #003399;
+}
+
+#content a {color:#006;text-decoration:underline;}
+#content a:visited {font-weight:normal; color: #006;}
+#content a:hover,#content a:active {color: #009;}
+
+#logo 
+{
+width:50em;
+max-width:100%;
+height:1px;
+padding-top:1em;
+padding-right:1em;
+float: right;
+}
+
+#logo img
+{
+    float:right;
+}
+
+#button1{	
+	cursor:pointer;
+	color:#003399;
+	background-color: #99ccff;
+	font-weight:600;
+	font-size:0.7em;
+	border-style:groove;
+	border-bottom-color:White;
+	border-right-color:White;
+	border-left-color:#dddddd;
+	border-top-color:#dddddd;
+	border-width: 2px;
+	padding:0px 5px 0px 5px;
+	text-decoration: none;
+}
+
+#expl
+{
+    font-style: italic;
+}
